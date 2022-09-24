@@ -1,0 +1,102 @@
+ {
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "organic",
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:alpha_yeti_fur"
+    }
+  },
+  "name": {
+    "translate": "material.twilightgear.alpha_yeti_fur"
+  },
+  "stats": {
+    "main": {
+      "durability": 0.0,
+      "armor_durability": 20.0,
+      "enchantability": 15.0,
+      "rarity": 7.0,
+      "chargeability": 0.95,
+      "armor": 4.0,
+      "armor/helmet": 4.0,
+      "armor/chestplate": 7.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 3.0,
+      "armor_toughness": 3.0,
+      "magic_armor": 10.0
+    },
+    "grip": {
+      "enchantability": {
+        "mul2": 0.1
+      },
+      "rarity": {
+        "add": 20
+      },
+      "attack_speed": {
+        "mul1": 0.2
+      },
+      "repair_value": {
+        "mu2": -0.07
+      }
+    },
+    "lining": {
+      "rarity": {
+        "add": 50
+      },
+      "repair_value": {
+        "mul2": -0.15
+      },
+      "enchantability": {
+        "mul2": 0.2
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:snow_walker",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "boots"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:stellar",
+        "level": 2
+      }
+    ],
+    "grip": [
+      {
+        "name": "silentgear:flexible",
+        "level": 1
+      },
+      {
+        "name": "silentgear:chilled",
+        "level": 2
+      }
+    ],
+    "lining": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      },
+      {
+        "name": "silentgear:renew",
+        "level": 1
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,37 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "twilightforest:raven_feather"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.raven_feather"
+  },
+  "stats": {
+    "fletching": {
+      "projectile_speed": 0.9,
+      "projectile_accuracy": 1.2
+    }
+  },
+  "traits": {
+    "fletching": [
+       {
+         "name": "twilightgear:veiled"
+       },
+       {
+         "name": "twilightgear:twilit"
+       }
+    ]
+  }
+}

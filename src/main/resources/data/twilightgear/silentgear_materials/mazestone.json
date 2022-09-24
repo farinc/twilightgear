@@ -1,0 +1,97 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "rock"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:mazestone"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.stone"
+  },
+  "stats": {
+    "main": {
+      "durability": 250.0,
+      "armor_durability": 15.0,
+      "enchantability": 10.0,
+      "harvest_level": 1.0,
+      "harvest_speed": 6.0,
+      "melee_damage": 3.0,
+      "magic_damage": 1.0,
+      "attack_speed": -0.1,
+      "armor": 7.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 3.0,
+      "armor/leggings": 3.0,
+      "armor/boots": 2.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": -0.3,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 0.8,
+      "rarity": 15.0,
+      "chargeability": 0.6
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.1
+      },
+      "harvest_speed": {
+        "mul2": 0.3
+      },
+      "rarity": 15.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:ancient",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 1
+      },
+      {
+        "name": "silentgear:crushing",
+        "level": 3
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#6A706C"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#6A706C"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#6A706C"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#6A706C"
+      }
+    ]
+  }
+}

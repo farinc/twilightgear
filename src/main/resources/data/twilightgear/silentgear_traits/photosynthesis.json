@@ -1,0 +1,11 @@
+ {
+  "type": "twilightgear:photosynthesis",
+  "max_level": 2,
+  "cancels_with": [],
+  "name": {
+    "translate": "trait.twilightgear.photosynthesis"
+  },
+  "description": {
+    "translate": "trait.twilightgear.photosynthesis.desc"
+  }
+}

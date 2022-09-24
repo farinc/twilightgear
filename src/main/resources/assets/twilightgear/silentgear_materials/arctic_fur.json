@@ -1,0 +1,33 @@
+{
+  "main/all": [
+    {
+      "texture": "silentgear:main_generic_lc",
+      "color": "90A0A9"
+    }
+  ],
+  "main/fragment": [
+    {
+      "texture": "silentgear:cloth",
+      "color": "90A0A9"
+    }
+  ],
+  "grip/all": [
+    {
+      "texture": "silentgear:grip_wool",
+      "color": "90A0A9"
+    }
+  ],
+  "grip/part": [
+    {
+      "texture": "twilightgear:grip",
+      "color": "90A0A9"
+    }
+  ],
+  "lining/part": [
+    {
+      "texture": "silentgear:lining_cloth",
+      "color": "90A0A9"
+    }
+  ]
+}
+

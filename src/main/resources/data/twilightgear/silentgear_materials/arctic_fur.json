@@ -1,0 +1,97 @@
+ {
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "organic",
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+        "item": "twilightforest:arctic_fur"
+    }
+  },
+  "name": {
+    "translate": "material.twilightgear.arctic_fur"
+  },
+  "stats": {
+    "main": {
+      "durability": 0.0,
+      "armor_durability": 10.0,
+      "enchantability": 8.0,
+      "rarity": 7.0,
+      "chargeability": 0.7,
+      "armor": 4.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 7.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 2.0,
+      "armor_toughness": 2.0,
+      "magic_armor": 7.0
+    },
+    "grip": {
+      "repair_value": {
+        "add": -0.05
+      },
+      "ranged_speed": {
+        "mul1": 0.12
+      },
+      "rarity": {
+        "mul1": 0.1
+      }
+    },
+    "lining": {
+      "rarity": {
+        "add": 20
+      },
+      "repair_value": {
+        "mul2": -0.05
+      },
+      "armor_durability": {
+        "mul2": 0.1
+      },
+      "enchantability": {
+        "mul2": 0.05
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:snow_walker",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:gear_type",
+            "gear_type": "boots"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:stellar",
+        "level": 1
+      }
+    ],
+    "grip": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      }
+    ],
+    "lining": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      },
+      {
+        "name": "silentgear:renew",
+        "level": 1
+      }
+    ]
+  }
+}

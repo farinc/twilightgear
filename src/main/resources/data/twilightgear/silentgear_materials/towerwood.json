@@ -1,0 +1,108 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic",
+      "wood"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:towerwood"
+    }
+  },
+  "name": {
+    "translate": "material.twilightforest.towerwood"
+  },
+  "stats": {
+    "main": {
+      "durability": 80.0,
+      "armor_durability": 8.0,
+      "repair_value": 0.25,
+      "enchantability": 20.0,
+      "harvest_level": 0.0,
+      "harvest_speed": 2.0,
+      "melee_damage": 0.0,
+      "magic_damage": 1.0,
+      "attack_speed": 0.0,
+      "attack_speed/axe": -0.2,
+      "armor": 10.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 5.0,
+      "armor/leggings": 4.0,
+      "armor/boots": 2.0,
+      "magic_armor": 4.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 0.0,
+      "projectile_speed": 0.90,
+      "projectile_accuracy": 0.95,
+      "rarity": 10.0,
+      "chargeability": 0.6
+    },
+    "rod": {
+      "enchantability": {
+        "mul2": 0.05
+      },
+      "rarity": 10.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:fireproof",
+        "level": 1,
+        "conditions": [
+            {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.7
+            }
+        ]
+      },
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#4d281b"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:wood",
+        "color": "#4d281b"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#4d281b"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#4d281b"
+      }
+    ]
+  }
+}

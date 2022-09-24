@@ -1,0 +1,110 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal",
+      "organic",
+      "wood"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:ironwood_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.twilightgear.ironwood"
+  },
+  "stats": {
+    "main": {
+      "durability": 512.0,
+      "armor_durability": 20.0,
+      "enchantability": 14.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 6.0,
+      "melee_damage": 2.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0.0,
+      "attack_speed/axe": -0.1,
+      "armor": 15.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 7.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 2.0,
+      "magic_armor": 6.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": 0.1,
+      "projectile_speed": 1.1,
+      "projectile_accuracy": 1.0,
+      "rarity": 35.0,
+      "chargeability": 0.8
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.15
+      },
+      "enchantability": [
+        {
+          "add": -2.0
+        },
+        {
+          "mul2": 0.1
+        }
+      ],
+      "melee_damage": {
+        "mul2": 0.1
+      },
+      "rarity": 35.0
+    },
+    "tip": {
+      "durability": {
+        "add": 40.0
+      },
+      "harvest_speed": {
+        "mul2": -0.1
+      },
+      "melee_damage": {
+        "mul2": -0.1
+      },
+      "ranged_speed": {
+        "add": 0.2
+      },
+      "rarity": {
+        "add": 15.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:jagged",
+        "level": 1
+      },
+      {
+        "name": "silentgear:renew",
+        "level": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+ 
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:naga_scale"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.naga_scale"
+  },
+  "stats": {
+    "main": {
+      "durability": 460.0,
+      "armor_durability": 15.0,
+      "enchantability": 15.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 8.9,
+      "melee_damage": 4.3,
+      "magic_damage": 2.0,
+      "attack_speed": 0.1,
+      "armor": 14.0,
+      "armor/helmet": 0.0,
+      "armor/chestplate": 7.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 0.0,
+      "armor_toughness": 0.5,
+      "magic_armor": 3.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": 1.3,
+      "rarity": 50.0,
+      "chargeability": 0.9
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.2
+      },
+      "ranged_damage": {
+        "mul2": 0.1
+      },
+      "silentgear:enchantability" : {
+        "add": 6
+      },
+      "rarity": 50.0
+    },
+    "tip": {
+      "harvest_level": {
+        "min": 2
+      },
+      "silentgear:repair_value": 1.6,
+      "silentgear:attack_speed": {
+        "mul2": 0.08
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:sharp",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.35
+          }
+        ]
+      },
+      {
+        "name": "silentgear:chipping",
+        "level": 1
+      },
+      {
+        "name": "silentgear:rustic",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:chipping",
+        "level": 1
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:sharp",
+        "level": 1
+      },
+      {
+        "name": "silentgear:rustic",
+        "level": 1
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#BFD4DE"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#BFD4DE"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#BFD4DE"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#BFD4DE"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}
