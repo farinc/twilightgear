@@ -41,24 +41,12 @@
       "rarity": 50.0,
       "chargeability": 0.9
     },
-    "rod": {
-      "durability": {
-        "mul2": -0.2
-      },
-      "ranged_damage": {
-        "mul2": 0.1
-      },
-      "silentgear:enchantability" : {
-        "add": 6
-      },
-      "rarity": 50.0
-    },
     "tip": {
       "harvest_level": {
         "min": 2
       },
-      "silentgear:repair_value": 1.6,
-      "silentgear:attack_speed": {
+      "repair_value": 1.6,
+      "attack_speed": {
         "mul2": 0.08
       }
     }
@@ -84,12 +72,6 @@
         "level": 1
       }
     ],
-    "rod": [
-      {
-        "name": "silentgear:chipping",
-        "level": 1
-      }
-    ],
     "tip": [
       {
         "name": "silentgear:sharp",
@@ -105,33 +87,27 @@
     "main/all": [
       {
         "texture": "silentgear:main_generic_hc",
-        "color": "#BFD4DE"
+        "color": "#888C1B"
       },
       {
-        "texture": "silentgear:_highlight"
+        "texture": "silentgear:main_splotches",
+        "color": "#65680E"
       }
     ],
     "main/fragment": [
       {
         "texture": "silentgear:metal",
-        "color": "#BFD4DE"
-      }
-    ],
-    "rod/all": [
+        "color": "#888C1B"
+      },
       {
-        "texture": "silentgear:rod_generic_hc",
-        "color": "#BFD4DE"
-      }
-    ],
-    "rod/part": [
-      {
-        "texture": "silentgear:rod",
-        "color": "#BFD4DE"
+        "texture": "silentgear:main_splotches",
+        "color": "#65680E"
       }
     ],
     "tip/all": [
       {
-        "texture": "silentgear:tip_sharp"
+        "texture": "silentgear:tip_sharp",
+        "color": "#888C1B"
       }
     ],
     "tip/part": [
@@ -139,7 +115,8 @@
         "texture": "silentgear:tip_base"
       },
       {
-        "texture": "silentgear:tip"
+        "texture": "silentgear:tip",
+        "color": "#888C1B"
       },
       {
         "texture": "silentgear:tip_shine"

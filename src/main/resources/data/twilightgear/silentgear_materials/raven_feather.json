@@ -33,5 +33,25 @@
          "name": "twilightgear:twilit"
        }
     ]
+  },
+  "model": {
+    "fletching/all": [
+      {
+        "texture": "silentgear:fletching_generic",
+        "color": "#1A171A"
+      }
+    ],
+    "fletching/part": [
+      {
+        "texture": "silentgear:fletching",
+        "color": "#1A171A"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#1A171A"
+      }
+    ]
   }
 }

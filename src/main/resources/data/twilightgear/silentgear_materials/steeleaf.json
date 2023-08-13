@@ -39,35 +39,9 @@
       "rarity": 60.0,
       "chargeability": 0.8
     },
-    "rod": {
-      "durability": {
-        "mul1": 1.3
-      },
-      "harvest_speed": {
-        "mul2": 0.1
-      },
-      "attack_speed": {
-        "mul2": 0.1
-      },
-      "rarity": 60.0
-    },
     "fletching": {
       "projectile_speed": 1.3,
       "projectile_accuracy": 1.20
-    },
-    "binding": {
-      "durability": {
-        "add": 60
-      },
-      "silentgear:repair_value": 1.05,
-      "rarity": [
-        {
-          "mul2": 0.05
-        },
-        {
-          "mul1": 0.05
-        }
-      ]
     },
     "tip": {
       "durability": {
@@ -120,31 +94,6 @@
         ]
       }
     ],
-    "rod": [
-      {
-        "name": "silentgear:jagged",
-        "level": 2
-      },
-      {
-        "name": "twilightgear:photosynthesis",
-        "level": 1,
-        "conditions": [
-          {
-            "type": "silentgear:or",
-            "values": [
-              {
-                "type": "silentgear:material_count",
-                "count": 3
-              },
-              {
-                "type": "silentgear:material_ratio",
-                "ratio": 0.35
-              }
-            ]
-          }
-        ]
-      }
-    ],
     "tip": [
       {
         "name": "silentgear:sharp",
@@ -164,40 +113,23 @@
     "main/all": [
       {
         "texture": "silentgear:main_generic_lc",
-        "color": "#3C3947"
+        "color": "#6DA25E"
       },
       {
         "texture": "silentgear:main_splotches",
-        "color": "#1F121B"
+        "color": "#27401D"
       }
     ],
     "main/fragment": [
       {
         "texture": "silentgear:metal",
-        "color": "#3C3947"
+        "color": "#6DA25E"
       }
     ],
-    "main/armor": [
+    "tip/all": [
       {
-        "texture": "silentgear:main_generic_lc",
-        "color": "#3C3947"
-      }
-    ],
-    "rod/all": [
-      {
-        "texture": "silentgear:rod_generic_lc",
-        "color": "#3C3947"
-      }
-    ],
-    "rod/part": [
-      {
-        "texture": "silentgear:rod",
-        "color": "#3C3947"
-      }
-    ],
-     "tip/all": [
-      {
-        "texture": "silentgear:tip_sharp"
+        "texture": "silentgear:tip_sharp",
+        "color": "#6DA25E"
       }
     ],
     "tip/part": [
@@ -205,7 +137,8 @@
         "texture": "silentgear:tip_base"
       },
       {
-        "texture": "silentgear:tip"
+        "texture": "silentgear:tip",
+        "color": "#6DA25E"
       },
       {
         "texture": "silentgear:tip_shine"
