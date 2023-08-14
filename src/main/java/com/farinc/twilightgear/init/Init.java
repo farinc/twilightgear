@@ -1,11 +1,12 @@
 package com.farinc.twilightgear.init;
 
+import static com.farinc.twilightgear.TwilightGear.MODID;
+
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.storage.loot.predicates.LootItemConditionType;
 import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
-import net.minecraftforge.common.loot.LootModifier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
@@ -15,8 +16,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.IForgeRegistryEntry;
 
-import static com.farinc.twilightgear.TwilightGear.MODID;
-
 //A better solution using the static initializer!
 // Lets just not instantiate this, although it won't do anything really...
 public final class Init {
@@ -24,7 +23,7 @@ public final class Init {
     public static final DeferredRegister<GlobalLootModifierSerializer<?>> LOOT_MODIFIER_SERIALIZERS;
     public static final DeferredRegister<Item> ITEMS;
 
-    static  {
+    static {
         LOOT_CONDITION_TYPES = create(Registry.LOOT_ITEM_REGISTRY);
         LOOT_MODIFIER_SERIALIZERS = create(ForgeRegistries.Keys.LOOT_MODIFIER_SERIALIZERS);
         ITEMS = create(ForgeRegistries.ITEMS);
@@ -35,7 +34,7 @@ public final class Init {
     }
 
     public static <T> DeferredRegister<T> create(ResourceKey<Registry<T>> registry) {
-        return DeferredRegister.create(registry,  MODID);
+        return DeferredRegister.create(registry, MODID);
     }
 
     public static void init(IEventBus bus) {
@@ -52,9 +51,12 @@ public final class Init {
         ITEMS.register(bus);
     }
 
-    private static void setup(final FMLCommonSetupEvent event) {}
+    private static void setup(final FMLCommonSetupEvent event) {
+    }
 
-    private static void enqueueIMC(final InterModEnqueueEvent event) {}
+    private static void enqueueIMC(final InterModEnqueueEvent event) {
+    }
 
-    private static void processIMC(final InterModProcessEvent event) {}
+    private static void processIMC(final InterModProcessEvent event) {
+    }
 }
