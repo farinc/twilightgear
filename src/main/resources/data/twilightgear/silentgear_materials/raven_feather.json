@@ -12,7 +12,7 @@
   },
   "crafting_items": {
     "main": {
-      "tag": "twilightforest:raven_feather"
+      "item": "twilightforest:raven_feather"
     }
   },
   "name": {
@@ -21,14 +21,15 @@
   "stats": {
     "fletching": {
       "projectile_speed": 0.9,
-      "projectile_accuracy": 1.2
+      "projectile_accuracy": 1.1
     }
   },
   "traits": {
     "fletching": [
-       {
-         "name": "twilightgear:veiled"
-       }
+      {
+        "name": "twilightgear:veiled",
+        "level": 2
+      }
     ]
   },
   "model": {

@@ -1,4 +1,3 @@
- 
 {
   "type": "silentgear:standard",
   "simple": true,
@@ -98,10 +97,6 @@
       {
         "texture": "silentgear:metal",
         "color": "#888C1B"
-      },
-      {
-        "texture": "silentgear:main_splotches",
-        "color": "#65680E"
       }
     ],
     "tip/all": [

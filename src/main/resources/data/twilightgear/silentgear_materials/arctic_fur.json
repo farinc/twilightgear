@@ -1,4 +1,4 @@
- {
+{
   "type": "silentgear:standard",
   "simple": true,
   "availability": {
@@ -13,7 +13,7 @@
   },
   "crafting_items": {
     "main": {
-        "item": "twilightforest:arctic_fur"
+      "item": "twilightforest:arctic_fur"
     }
   },
   "name": {
@@ -119,7 +119,7 @@
     ],
     "grip/part": [
       {
-        "texture": "twilightgear:grip",
+        "texture": "silentgear:grip",
         "color": "#E6E9EB"
       }
     ],

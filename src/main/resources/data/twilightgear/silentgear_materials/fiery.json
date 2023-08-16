@@ -4,20 +4,24 @@
   "availability": {
     "tier": 3,
     "categories": [
-      "organic",
-      "metal"
+      "organic"
     ],
     "visible": true,
     "gear_blacklist": [],
     "can_salvage": false
   },
   "crafting_items": {
-    "coating": {
+    "main": {
       "tag": "twilightforest:fiery_vial"
+    },
+    "subs": {
+      "coating": {
+        "tag": "twilightforest:fiery_vial"
+      }
     }
   },
   "name": {
-    "translate": "material.silentgear.fiery"
+    "translate": "material.twilightgear.fiery"
   },
   "stats": {
     "coating": {
@@ -35,10 +39,14 @@
       "armor_toughness": {
         "add": 0.5
       },
-      "enchantability": {
-        "mul1": 0.1,
-        "add": 2
-      },
+      "enchantability": [
+        {
+          "mul1": 0.1
+        },
+        {
+          "add": 2
+        }
+      ],
       "rarity": {
         "mul1": 0.05
       }
@@ -53,16 +61,6 @@
           {
             "type": "silentgear:material_ratio",
             "ratio": 0.35
-          }
-        ]
-      },
-      {
-        "name": "silentgear:fiery",
-        "level": 1,
-        "conditions": [
-          {
-            "type": "silentgear:material_ratio",
-            "ratio": 0.15
           }
         ]
       },
@@ -87,14 +85,23 @@
     ]
   },
   "model": {
-    "coating": [
-      {
-        "texture": "silentgear:_highlight",
-        "color": "#F4FB92"
-      },
+    "coating/all": [
       {
         "texture": "silentgear:main_generic_lc",
-        "color": "#3C2323"
+        "color": "#191313"
+      },
+      {
+        "texture": "silentgear:_highlight",
+        "color": "#FFD83A"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating_material",
+        "color": "#FFD83A"
+      },
+      {
+        "texture": "silentgear:coating_jar"
       }
     ]
   }

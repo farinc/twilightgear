@@ -1,4 +1,4 @@
- {
+{
   "type": "silentgear:standard",
   "simple": true,
   "availability": {
@@ -113,42 +113,25 @@
       {
         "texture": "silentgear:cloth",
         "color": "#D5D5D5"
-      },
-      {
-        "texture": "silentgear:main_splotches",
-        "color": "#4475BD"
       }
     ],
     "grip/all": [
       {
         "texture": "silentgear:grip_wool",
         "color": "#D5D5D5"
-      },
-      {
-        "texture": "silentgear:main_splotches",
-        "color": "#4475BD"
       }
     ],
     "grip/part": [
       {
-        "texture": "twilightgear:grip",
+        "texture": "silentgear:grip",
         "color": "#D5D5D5"
-      },
-      {
-        "texture": "silentgear:main_splotches",
-        "color": "#4475BD"
       }
     ],
     "lining/part": [
       {
         "texture": "silentgear:lining_cloth",
         "color": "#D5D5D5"
-      },
-      {
-        "texture": "silentgear:main_splotches",
-        "color": "#4475BD"
       }
     ]
   }
 }
-

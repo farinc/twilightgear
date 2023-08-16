@@ -56,10 +56,10 @@
         "name": "silentgear:fireproof",
         "level": 1,
         "conditions": [
-            {
-                "type": "silentgear:material_ratio",
-                "ratio": 0.7
-            }
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.7
+          }
         ]
       },
       {
@@ -103,5 +103,5 @@
         "color": "#955D38"
       }
     ]
-  }  
+  }
 }

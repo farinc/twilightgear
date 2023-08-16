@@ -1,0 +1,84 @@
+{
+    "type": "silentgear:standard",
+    "simple": true,
+    "availability": {
+        "tier": 3,
+        "categories": [
+            "gem",
+            "organic"
+        ],
+        "visible": true,
+        "gear_blacklist": [],
+        "can_salvage": true
+    },
+    "crafting_items": {
+        "main": {
+            "tag": "forge:gems/carminite"
+        }
+    },
+    "name": {
+        "translate": "material.twilightgear.carminite"
+    },
+    "stats": {
+        "coating": {
+            "durability": {
+                "mul2": -0.1
+            },
+            "armor_durability": {
+                "mul2": -0.1
+            },
+            "magic_damage": {
+                "mul2": 0.2
+            },
+            "magic_armor": {
+                "mul2": 0.1
+            },
+            "enchantability": {
+                "mul1": 0.1
+            },
+            "repair_value": {
+                "mul1": 0.8
+            },
+            "rarity": {
+                "mul2": 0.05
+            }
+        }
+    },
+    "traits": {
+        "coating": [
+            {
+                "name": "silentgear:soft",
+                "level": 1
+            },
+            {
+                "name": "silentgear:synergistic",
+                "level": 2
+            },
+            {
+                "name": "silentgear:fireproof",
+                "level": 1
+            }
+        ]
+    },
+    "model": {
+        "coating/all": [
+            {
+                "texture": "silentgear:main_generic_lc",
+                "color": "#9A0000"
+            },
+            {
+                "texture": "silentgear:_highlight",
+                "color": "#E62400"
+            }
+        ],
+        "coating/part": [
+            {
+                "texture": "silentgear:coating_material",
+                "color": "#9A0000"
+            },
+            {
+                "texture": "silentgear:coating_jar"
+            }
+        ]
+    }
+}

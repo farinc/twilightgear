@@ -1,14 +1,14 @@
 {
-    "type": "silentgear:block_mining_speed",
-    "max_level": 5,
-    "name": {
-      "translate": "trait.twilightgear.mazebreaking"
-    },
-    "description": {
-      "translate": "trait.twilightgear.mazebreaking.desc"
-    },
-    "speed_multiplier": 7,
-    "blocks": [
-      "twilightforest:mazestone"
-    ]
+  "type": "silentgear:block_mining_speed",
+  "max_level": 5,
+  "name": {
+    "translate": "trait.twilightgear.mazebreaking"
+  },
+  "description": {
+    "translate": "trait.twilightgear.mazebreaking.desc"
+  },
+  "speed_multiplier": 7,
+  "blocks": [
+    "twilightforest:mazestone"
+  ]
 }
