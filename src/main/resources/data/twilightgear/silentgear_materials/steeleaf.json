@@ -72,7 +72,7 @@
       },
       {
         "name": "twilightgear:photosynthesis",
-        "level": 3,
+        "level": 2,
         "conditions": [
           {
             "type": "silentgear:material_ratio",
@@ -82,13 +82,13 @@
       },
       {
         "name": "twilightgear:photosynthesis",
-        "level": 2,
+        "level": 1,
         "conditions": [
           {
             "type": "silentgear:not",
             "value": {
               "type": "silentgear:material_ratio",
-              "ratio": 0.67
+              "ratio": 0.33
             }
           }
         ]

@@ -55,6 +55,10 @@
       {
         "name": "silentgear:ancient",
         "level": 2
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 2
       }
     ],
     "rod": [
