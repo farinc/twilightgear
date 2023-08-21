@@ -87,6 +87,10 @@
   "model": {
     "coating/all": [
       {
+        "texture": "silentgear:_highlight",
+        "color": "#FFFA96"
+      },
+      {
         "texture": "twilightgear:main_fiery"
       }
     ],

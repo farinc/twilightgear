@@ -25,6 +25,14 @@ archivesBaseName = 'twilightgear'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+
+tasks.register('copyFieryTextures', Copy) {
+    from "fiery_textures/fiery"
+    include "**/*.png" 
+    include "**/*.mcmeta"
+    into "src/main/resources/assets/twilightgear/textures/"
+}
+
 minecraft {
     // The mappings can be changed at any time and must be in the following format.
     // Channel:   Version:
@@ -63,6 +71,8 @@ minecraft {
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', 'twilightgear'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
                 twilightgear {
@@ -80,6 +90,8 @@ minecraft {
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', 'twilightgear'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
                 twilightgear {
@@ -194,9 +206,6 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
     implementation fg.deobf("teamtwilight:twilightforest:4.1.+:universal")
-
-    compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.+:api")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.+")
 
     implementation fg.deobf("net.silentchaos512:silent-gear:1.18.2-2.10.+") {
         exclude module: 'forge'
