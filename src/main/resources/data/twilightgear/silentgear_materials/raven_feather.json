@@ -1,5 +1,6 @@
 {
   "type": "silentgear:standard",
+  "parent": "silentgear:feather",
   "simple": true,
   "availability": {
     "tier": 1,
@@ -16,13 +17,7 @@
     }
   },
   "name": {
-    "translate": "material.silentgear.raven_feather"
-  },
-  "stats": {
-    "fletching": {
-      "projectile_speed": 0.9,
-      "projectile_accuracy": 1.1
-    }
+    "translate": "material.twilightgear.raven_feather"
   },
   "traits": {
     "fletching": [

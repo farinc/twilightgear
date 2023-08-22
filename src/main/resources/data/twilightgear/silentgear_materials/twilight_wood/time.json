@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "parent": "twilightgear:twilight_wood",
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:time_planks"
+    }
+  },
+  "name": {
+    "translate": "material.twilightgear.wood.time"
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#6E4739"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:wood",
+        "color": "#6E4739"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#6E4739"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#6E4739"
+      }
+    ]
+  }
+}

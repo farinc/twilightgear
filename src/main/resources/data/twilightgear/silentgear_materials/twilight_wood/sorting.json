@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "parent": "twilightgear:twilight_wood",
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:sorting_planks"
+    }
+  },
+  "name": {
+    "translate": "material.twilightgear.wood.sorting"
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#503420"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:wood",
+        "color": "#503420"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#503420"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#503420"
+      }
+    ]
+  }
+}

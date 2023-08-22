@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "parent": "twilightgear:twilight_wood",
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:canopy_planks"
+    }
+  },
+  "name": {
+    "translate": "material.twilightgear.wood.canopy"
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#4D3826"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:wood",
+        "color": "#4D3826"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#4D3826"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#4D3826"
+      }
+    ]
+  }
+}

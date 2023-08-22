@@ -1,0 +1,31 @@
+{
+  "type": "silentgear:standard",
+  "parent": "silentgear:wood",
+  "simple": true,
+  "availability": {
+    "tier": 0,
+    "categories": [
+      "organic",
+      "wood"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "name": {
+    "translate": "material.silentgear.wood"
+  },
+  "crafting_items": {
+    "main": {
+      "type": "silentlib:exclusion",
+      "value": {
+        "tag": "twilightgear:twilight_planks"
+      },
+      "exclusions": [
+        {
+          "tag": "twilightgear:twilight_planks"
+        }
+      ]
+    }
+  }
+}

@@ -16,7 +16,7 @@
     }
   },
   "name": {
-    "translate": "material.silentgear.mazestone"
+    "translate": "material.twilightgear.mazestone"
   },
   "stats": {
     "main": {
@@ -59,16 +59,20 @@
       {
         "name": "silentgear:hard",
         "level": 2
+      },
+      {
+        "name": "twilightgear:mazebreaking",
+        "level": 1
       }
     ],
     "rod": [
       {
         "name": "silentgear:brittle",
-        "level": 1
+        "level": 2
       },
       {
         "name": "silentgear:crushing",
-        "level": 3
+        "level": 2
       }
     ]
   },

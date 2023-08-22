@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "twilightforest:canopy_planks",
+        "twilightforest:dark_planks",
+        "twilightforest:mangrove_planks",
+        "twilightforest:mining_planks",
+        "twilightforest:sorting_planks",
+        "twilightforest:time_planks",
+        "twilightforest:transformation_planks",
+        "twilightforest:twilight_oak_planks"
+    ]
+}
