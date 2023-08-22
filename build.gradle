@@ -165,13 +165,14 @@ repositories {
     }
 
     maven {
-        // location of the maven that hosts JEI files
-        name = "Progwml6 maven"
-        url = "https://dvs1.progwml6.com/files/maven/"
+        // location of the maven that hosts JEI files since January 2023
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
     }
-
     maven {
-        url = "https://modmaven.dev/"
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "https://modmaven.dev"
     }
 
     maven {
@@ -219,6 +220,10 @@ dependencies {
     implementation fg.deobf("net.silentchaos512:silent-lib:1.18.2-6.+") {
         exclude module: "forge"
     }
+    
+    // This is mostly for debugging purposes. IE has a simple item tag tooltip when advanced tooltips are used.
+    runtimeOnly fg.deobf("mezz.jei:jei-1.18.2-forge:10.2.1.1001")
+    runtimeOnly fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:1.18.2-8.4.0-161")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
