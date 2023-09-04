@@ -37,8 +37,8 @@ Those are additional textures to give justice to the (awesome) fiery material.
 
 ## Armor Model
 
-- [] Layer 1
-- [] Layer 2
+- [x] Layer 1
+- [x] Layer 2
 
 ## Sheild Model
 May not be able to do this one...
