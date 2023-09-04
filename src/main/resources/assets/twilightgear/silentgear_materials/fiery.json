@@ -8,6 +8,11 @@
             "texture": "twilightgear:main_fiery"
         }
     ],
+    "coating/armor": [
+        {
+            "texture": "twilightgear:main_fiery"
+        }
+    ],
     "coating/part": [
         {
             "texture": "silentgear:coating_material",

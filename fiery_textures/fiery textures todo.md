@@ -33,7 +33,7 @@ Those are additional textures to give justice to the (awesome) fiery material.
 - [x] sword
 - [x] trident
 
-* Note that Silent gear doesn't seem to actually apply any overlay color, so a texture isn't required (I think...)
+* Note that Silent gear doesn't seem to actually apply any overlay color for coatings, so a texture isn't required (I think...)
 
 ## Armor Model
 
