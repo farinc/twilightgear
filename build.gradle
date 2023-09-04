@@ -30,6 +30,7 @@ tasks.register('copyFieryTextures', Copy) {
     from "fiery_textures/fiery"
     include "**/*.png" 
     include "**/*.mcmeta"
+    include "**/*.moremcmeta"
     into "src/main/resources/assets/twilightgear/textures/"
 }
 
@@ -199,6 +200,10 @@ repositories {
         url = uri("https://maven.pkg.github.com/silentchaos512/silent-utils")
         credentials gpr_creds
     }
+     maven {
+        url "https://maven.pkg.github.com/moremcmeta/*/"
+        credentials gpr_creds
+    }
 }
 
 dependencies {
@@ -232,6 +237,8 @@ dependencies {
     implementation fg.deobf("net.silentchaos512:silent-lib:1.18.2-6.+") {
         exclude module: "forge"
     }
+
+    implementation fg.deobf("io.github.moremcmeta:moremcmeta-forge:1.18.2-4.2.3")
     
     // This is mostly for debugging purposes. IE has a simple item tag tooltip when advanced tooltips are used.
     runtimeOnly fg.deobf("mezz.jei:jei-1.18.2-forge:10.2.1.1001")
