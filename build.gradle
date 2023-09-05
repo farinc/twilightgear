@@ -238,7 +238,12 @@ dependencies {
         exclude module: "forge"
     }
 
+    // Must add the entire plugin list as those are jar-in-jar and otherwise remain obfuscated, resulting in a crash at startup
     implementation fg.deobf("io.github.moremcmeta:moremcmeta-forge:1.18.2-4.2.3")
+    implementation(fg.deobf("io.github.moremcmeta:json-parser-plugin-forge:1.18.2-1.1.0"))
+    implementation(fg.deobf("io.github.moremcmeta:properties-parser-plugin-forge:1.18.2-1.1.2"))
+    implementation(fg.deobf("io.github.moremcmeta:animation-plugin-forge:1.18.2-1.0.0"))
+    implementation(fg.deobf("io.github.moremcmeta:texture-plugin-forge:1.0.0"))
     
     // This is mostly for debugging purposes. IE has a simple item tag tooltip when advanced tooltips are used.
     runtimeOnly fg.deobf("mezz.jei:jei-1.18.2-forge:10.2.1.1001")
