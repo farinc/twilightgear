@@ -71,6 +71,9 @@
       "harvest_speed": {
         "add": -0.2
       },
+      "attack_speed": {
+        "mul1": -0.05
+      },
       "melee_damage": {
         "add": 2.0
       },
@@ -86,8 +89,12 @@
         "level": 2
       },
       {
-        "name": "silentgear:ancient",
-        "level": 3
+        "name": "silentgear:bulky",
+        "level": 2
+      },
+      {
+        "name": "silentgear:sturdy",
+        "level": 2
       }
     ],
     "rod": [

@@ -50,7 +50,7 @@
       },
       "enchantability": [
         {
-          "add": -2.0
+          "add": -1.0
         },
         {
           "mul2": 0.1

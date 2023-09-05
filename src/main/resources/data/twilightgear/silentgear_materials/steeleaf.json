@@ -76,7 +76,7 @@
         "conditions": [
           {
             "type": "silentgear:material_ratio",
-            "ratio": 0.67
+            "ratio": 0.6666
           }
         ]
       },
@@ -88,7 +88,7 @@
             "type": "silentgear:not",
             "value": {
               "type": "silentgear:material_ratio",
-              "ratio": 0.33
+              "ratio": 0.3333
             }
           }
         ]

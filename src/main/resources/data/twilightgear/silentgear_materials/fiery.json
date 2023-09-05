@@ -60,7 +60,20 @@
         "conditions": [
           {
             "type": "silentgear:material_ratio",
-            "ratio": 0.35
+            "ratio": 0.6666
+          }
+        ]
+      },
+      {
+        "name": "silentgear:fiery",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:not",
+            "value": {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.3333
+            }
           }
         ]
       },
@@ -77,8 +90,18 @@
         "level": 1,
         "conditions": [
           {
-            "type": "silentgear:material_count",
-            "count": 2
+            "type": "silentgear:material_ratio",
+            "ratio": 1
+          }
+        ]
+      },
+      {
+        "name": "silentgear:flame_ward",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 1
           }
         ]
       }
@@ -90,6 +113,11 @@
         "texture": "silentgear:_highlight",
         "color": "#FFFA96"
       },
+      {
+        "texture": "twilightgear:main_fiery"
+      }
+    ],
+    "coating/armor": [
       {
         "texture": "twilightgear:main_fiery"
       }
