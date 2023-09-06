@@ -29,6 +29,14 @@
           "mul2": -0.1
         }
       ],
+      "armor_durability": [
+        {
+          "avg": 15
+        },
+        {
+          "mul2": -0.1
+        }
+      ],
       "magic_damage": {
         "mul2": 0.2
       },
@@ -49,14 +57,19 @@
       "rarity": {
         "mul2": 0.05
       },
-      "chargeability": 1.3
+      "chargeability": 1.3,
+      "armor": 15.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 7.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 2.0
     }
   },
   "traits": {
     "main": [
       {
         "name": "silentgear:soft",
-        "level": 1
+        "level": 2
       },
       {
         "name": "silentgear:synergistic",
@@ -77,15 +90,6 @@
       {
         "texture": "silentgear:_highlight",
         "color": "#E62400"
-      }
-    ],
-    "coating/part": [
-      {
-        "texture": "silentgear:coating_material",
-        "color": "#9A0000"
-      },
-      {
-        "texture": "silentgear:coating_jar"
       }
     ]
   }
