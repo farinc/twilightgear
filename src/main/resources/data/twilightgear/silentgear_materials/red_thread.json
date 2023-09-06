@@ -1,0 +1,174 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "fiber"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:red_thread"
+    }
+  },
+  "name": {
+    "translate": "material.twilightgear.red_thread"
+  },
+  "stats": {
+    "binding": {
+      "durability": [
+        {
+          "mul1": -0.01
+        },
+        {
+          "add": -10.0
+        }
+      ],
+      "ranged_damage": {
+        "mul1": 0.03
+      },
+      "ranged_speed": [
+        {
+          "add": 0.1
+        },
+        {
+          "mul1": 0.13
+        }
+      ],
+      "melee_damage": {
+        "mul1": 0.03
+      },
+      "attack_speed": {
+        "add": 0.1
+      },
+      "armor_durability": {
+        "mul1": 0.04
+      },
+      "magic_armor": {
+        "add": 3.5
+      },
+      "rarity": {
+        "add": 15.0
+      },
+      "enchantability": {
+        "add": 4.0
+      }
+    },
+    "cord": {
+      "durability": [
+        {
+          "mul1": 0.09
+        },
+        {
+          "add": -32.0
+        }
+      ],
+      "ranged_damage": {
+        "mul1": 0.09
+      },
+      "ranged_speed": [
+        {
+          "add": 0.25
+        },
+        {
+          "mul1": 0.29
+        }
+      ],
+      "rarity": {
+        "add": 15.0
+      },
+      "enchantability": {
+        "add": 4.0
+      }
+    }
+  },
+  "traits": {
+    "binding": [
+      {
+        "name": "silentgear:lustrous",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:or",
+            "values": [
+              {
+                "type": "silentgear:material_count",
+                "count": 2
+              },
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.35
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cord": [
+      {
+        "name": "silentgear:accelerate",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:or",
+            "values": [
+              {
+                "type": "silentgear:material_count",
+                "count": 2
+              },
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.35
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "binding/all": [
+      {
+        "texture": "silentgear:binding_generic",
+        "color": "#C10B0B"
+      }
+    ],
+    "binding/part": [
+      {
+        "texture": "silentgear:binding",
+        "color": "#C10B0B"
+      }
+    ],
+    "cord/all": [
+      {
+        "texture": "silentgear:bowstring_string",
+        "color": "#C10B0B"
+      },
+      {
+        "texture": "silentgear:arrow"
+      }
+    ],
+    "cord/part": [
+      {
+        "texture": "silentgear:bowstring",
+        "color": "#C10B0B"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:cloth",
+        "color": "#C10B0B"
+      }
+    ],
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#C10B0B"
+      }
+    ]
+  }
+}
