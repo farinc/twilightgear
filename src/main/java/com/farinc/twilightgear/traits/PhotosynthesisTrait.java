@@ -9,8 +9,10 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.util.FakePlayer;
 import net.silentchaos512.gear.api.GearApi;
+import net.silentchaos512.gear.api.part.IPartData;
 import net.silentchaos512.gear.api.traits.TraitActionContext;
 import net.silentchaos512.gear.gear.trait.SimpleTrait;
+import net.silentchaos512.gear.util.DataResource;
 import net.silentchaos512.gear.util.GearHelper;
 import net.silentchaos512.gear.util.TraitHelper;
 import net.silentchaos512.utils.MathUtils;
@@ -25,6 +27,9 @@ public class PhotosynthesisTrait extends SimpleTrait {
     public PhotosynthesisTrait(ResourceLocation id) {
         super(id, SERIALIZER);
     }
+
+    public static ResourceLocation STEELEAF_MATERIAL = new ResourceLocation(TwilightGear.MODID,
+            "silentgear_materials/steeleaf");
 
     /**
      * Adapted and modified code from Twilight Forest mod and Silent Gear, see
@@ -57,6 +62,7 @@ public class PhotosynthesisTrait extends SimpleTrait {
 
                 for (int i = 0; i < 9; i++) {
                     if (i != itemSlot) {
+                        IPartData main = GearApi.getMainPart(gear);
                         ItemStack invSlot = items.get(i);
                         if (invSlot.is(TFItems.STEELEAF_INGOT.get())) {
                             multiplier += invSlot.getCount() * 0.1D;
@@ -64,6 +70,10 @@ public class PhotosynthesisTrait extends SimpleTrait {
                             multiplier += invSlot.getCount() * 0.9D;
                         } else if (TraitHelper.hasTrait(gear, this)) {
                             multiplier += 0.3D;
+                        } else if (main != null) {
+                            if (main.containsMaterial(DataResource.material(STEELEAF_MATERIAL))) {
+                                multiplier += 0.3D;
+                            }
                         }
                     }
                 }
