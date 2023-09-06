@@ -1,0 +1,109 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "rock"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "twilightforest:trollsteinn"
+    }
+  },
+  "name": {
+    "translate": "material.twilightgear.trollsteinn"
+  },
+  "stats": {
+    "main": {
+      "durability": 700.0,
+      "enchantability": 10.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 6.0,
+      "melee_damage": [
+        {
+          "avg": 2.5
+        },
+        {
+          "mul2": 0.1
+        }
+      ],
+      "attack_speed": -0.1,
+      "armor": 20.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 8.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 3.0,
+      "armor_toughness": 4.0,
+      "ranged_speed": -0.3,
+      "projectile_speed": 0.9,
+      "projectile_accuracy": 1.0,
+      "rarity": {
+        "add": 10
+      },
+      "chargeability": 1.1
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:ancient",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.6666
+          }
+        ]
+      },
+      {
+        "name": "silentgear:crushing",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.3333
+          }
+        ]
+      },
+      {
+        "name": "twilightgear:sensitive",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.3333
+          }
+        ]
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#4F4F4F"
+      },
+      {
+        "texture": "silentgear:main_splotches",
+        "color": "#4F4366"
+      }
+    ],
+    "main/armor": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#4F4F4F"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#4F4F4F"
+      }
+    ]
+  }
+}

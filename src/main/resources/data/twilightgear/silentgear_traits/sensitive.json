@@ -1,0 +1,11 @@
+{
+  "type": "twilightgear:sensitive",
+  "max_level": 1,
+  "cancels_with": [],
+  "name": {
+    "translate": "trait.twilightgear.sensitive"
+  },
+  "description": {
+    "translate": "trait.twilightgear.sensitive.desc"
+  }
+}
