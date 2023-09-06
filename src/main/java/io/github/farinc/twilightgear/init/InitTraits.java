@@ -1,8 +1,7 @@
-package com.farinc.twilightgear.init;
+package io.github.farinc.twilightgear.init;
 
-import com.farinc.twilightgear.traits.PhotosynthesisTrait;
-import com.farinc.twilightgear.traits.SensitiveTrait;
-
+import io.github.farinc.twilightgear.traits.PhotosynthesisTrait;
+import io.github.farinc.twilightgear.traits.SensitiveTrait;
 import net.silentchaos512.gear.api.GearApi;
 
 public final class InitTraits {

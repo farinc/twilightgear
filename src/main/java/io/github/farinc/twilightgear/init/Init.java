@@ -1,6 +1,4 @@
-package com.farinc.twilightgear.init;
-
-import static com.farinc.twilightgear.TwilightGear.MODID;
+package io.github.farinc.twilightgear.init;
 
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
@@ -16,6 +14,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.IForgeRegistryEntry;
 
+import io.github.farinc.twilightgear.TwilightGear;
+
 //A better solution using the static initializer!
 // Lets just not instantiate this, although it won't do anything really...
 public final class Init {
@@ -30,11 +30,11 @@ public final class Init {
     }
 
     public static <T extends IForgeRegistryEntry<T>> DeferredRegister<T> create(IForgeRegistry<T> registry) {
-        return DeferredRegister.create(registry, MODID);
+        return DeferredRegister.create(registry, TwilightGear.MODID);
     }
 
     public static <T> DeferredRegister<T> create(ResourceKey<Registry<T>> registry) {
-        return DeferredRegister.create(registry, MODID);
+        return DeferredRegister.create(registry, TwilightGear.MODID);
     }
 
     public static void init(IEventBus bus) {

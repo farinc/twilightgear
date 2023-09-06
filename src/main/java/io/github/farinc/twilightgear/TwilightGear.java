@@ -1,10 +1,10 @@
-package com.farinc.twilightgear;
+package io.github.farinc.twilightgear;
 
 import org.slf4j.Logger;
 
-import com.farinc.twilightgear.init.Init;
 import com.mojang.logging.LogUtils;
 
+import io.github.farinc.twilightgear.init.Init;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;

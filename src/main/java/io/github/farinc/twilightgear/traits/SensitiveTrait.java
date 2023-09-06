@@ -1,8 +1,8 @@
-package com.farinc.twilightgear.traits;
+package io.github.farinc.twilightgear.traits;
 
-import com.farinc.twilightgear.TwilightGear;
 import com.mojang.math.Vector3f;
 
+import io.github.farinc.twilightgear.TwilightGear;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.DustParticleOptions;
 import net.minecraft.resources.ResourceLocation;

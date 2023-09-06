@@ -1,7 +1,6 @@
-package com.farinc.twilightgear.traits;
+package io.github.farinc.twilightgear.traits;
 
-import com.farinc.twilightgear.TwilightGear;
-
+import io.github.farinc.twilightgear.TwilightGear;
 import net.minecraft.core.NonNullList;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.InteractionHand;
