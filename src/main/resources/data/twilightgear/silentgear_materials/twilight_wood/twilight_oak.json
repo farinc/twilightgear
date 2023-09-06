@@ -10,30 +10,5 @@
   "name": {
     "translate": "material.twilightgear.wood.twilight_oak"
   },
-  "model": {
-    "main/all": [
-      {
-        "texture": "silentgear:main_generic_lc",
-        "color": "#8D7150"
-      }
-    ],
-    "main/fragment": [
-      {
-        "texture": "silentgear:wood",
-        "color": "#8D7150"
-      }
-    ],
-    "rod/all": [
-      {
-        "texture": "silentgear:rod_generic_lc",
-        "color": "#8D7150"
-      }
-    ],
-    "rod/part": [
-      {
-        "texture": "silentgear:rod",
-        "color": "#8D7150"
-      }
-    ]
-  }
+  "model": {}
 }

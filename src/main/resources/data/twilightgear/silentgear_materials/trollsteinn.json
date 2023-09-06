@@ -82,28 +82,5 @@
       }
     ]
   },
-  "model": {
-    "main/all": [
-      {
-        "texture": "silentgear:main_generic_lc",
-        "color": "#4F4F4F"
-      },
-      {
-        "texture": "silentgear:main_splotches",
-        "color": "#4F4366"
-      }
-    ],
-    "main/armor": [
-      {
-        "texture": "silentgear:main_generic_lc",
-        "color": "#4F4F4F"
-      }
-    ],
-    "main/fragment": [
-      {
-        "texture": "silentgear:metal",
-        "color": "#4F4F4F"
-      }
-    ]
-  }
+  "model": {}
 }

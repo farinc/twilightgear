@@ -130,45 +130,5 @@
       }
     ]
   },
-  "model": {
-    "binding/all": [
-      {
-        "texture": "silentgear:binding_generic",
-        "color": "#C10B0B"
-      }
-    ],
-    "binding/part": [
-      {
-        "texture": "silentgear:binding",
-        "color": "#C10B0B"
-      }
-    ],
-    "cord/all": [
-      {
-        "texture": "silentgear:bowstring_string",
-        "color": "#C10B0B"
-      },
-      {
-        "texture": "silentgear:arrow"
-      }
-    ],
-    "cord/part": [
-      {
-        "texture": "silentgear:bowstring",
-        "color": "#C10B0B"
-      }
-    ],
-    "main/fragment": [
-      {
-        "texture": "silentgear:cloth",
-        "color": "#C10B0B"
-      }
-    ],
-    "main/all": [
-      {
-        "texture": "silentgear:main_generic_lc",
-        "color": "#C10B0B"
-      }
-    ]
-  }
+  "model": {}
 }

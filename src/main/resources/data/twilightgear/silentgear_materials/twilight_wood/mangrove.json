@@ -10,30 +10,5 @@
   "name": {
     "translate": "material.twilightgear.wood.mangrove"
   },
-  "model": {
-    "main/all": [
-      {
-        "texture": "silentgear:main_generic_lc",
-        "color": "#C19871"
-      }
-    ],
-    "main/fragment": [
-      {
-        "texture": "silentgear:wood",
-        "color": "#C19871"
-      }
-    ],
-    "rod/all": [
-      {
-        "texture": "silentgear:rod_generic_lc",
-        "color": "#C19871"
-      }
-    ],
-    "rod/part": [
-      {
-        "texture": "silentgear:rod",
-        "color": "#C19871"
-      }
-    ]
-  }
+  "model": {}
 }

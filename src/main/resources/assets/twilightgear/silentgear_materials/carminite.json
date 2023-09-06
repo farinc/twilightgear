@@ -1,5 +1,5 @@
 {
-    "coating/all": [
+    "main/all": [
         {
             "texture": "silentgear:main_generic_lc",
             "color": "#9A0000"
@@ -9,13 +9,10 @@
             "color": "#E62400"
         }
     ],
-    "coating/part": [
+    "main/fragment": [
         {
-            "texture": "silentgear:coating_material",
+            "texture": "silentgear:metal",
             "color": "#9A0000"
-        },
-        {
-            "texture": "silentgear:coating_jar"
         }
     ]
 }

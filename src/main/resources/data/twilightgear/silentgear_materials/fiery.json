@@ -107,29 +107,5 @@
       }
     ]
   },
-  "model": {
-    "coating/all": [
-      {
-        "texture": "silentgear:_highlight",
-        "color": "#FFFA96"
-      },
-      {
-        "texture": "twilightgear:main_fiery"
-      }
-    ],
-    "coating/armor": [
-      {
-        "texture": "twilightgear:main_fiery"
-      }
-    ],
-    "coating/part": [
-      {
-        "texture": "silentgear:coating_material",
-        "color": "#5C0B0B"
-      },
-      {
-        "texture": "silentgear:coating_jar"
-      }
-    ]
-  }
+  "model": {}
 }

@@ -94,40 +94,5 @@
       }
     ]
   },
-  "model": {
-    "main/all": [
-      {
-        "texture": "silentgear:main_generic_lc",
-        "color": "#E6E9EB"
-      },
-      {
-        "texture": "silentgear:main_splotches",
-        "color": "#90A0A9"
-      }
-    ],
-    "main/fragment": [
-      {
-        "texture": "silentgear:cloth",
-        "color": "#E6E9EB"
-      }
-    ],
-    "grip/all": [
-      {
-        "texture": "silentgear:grip_wool",
-        "color": "#E6E9EB"
-      }
-    ],
-    "grip/part": [
-      {
-        "texture": "silentgear:grip",
-        "color": "#E6E9EB"
-      }
-    ],
-    "lining/part": [
-      {
-        "texture": "silentgear:lining_cloth",
-        "color": "#E6E9EB"
-      }
-    ]
-  }
+  "model": {}
 }

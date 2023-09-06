@@ -2,7 +2,7 @@
     "coating/all": [
         {
             "texture": "silentgear:_highlight",
-            "color": "#FFFA96"
+            "color": "#5C0B0B"
         },
         {
             "texture": "twilightgear:main_fiery"

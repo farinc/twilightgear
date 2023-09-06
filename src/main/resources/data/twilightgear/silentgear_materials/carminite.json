@@ -81,16 +81,5 @@
       }
     ]
   },
-  "model": {
-    "main/all": [
-      {
-        "texture": "silentgear:main_generic_lc",
-        "color": "#9A0000"
-      },
-      {
-        "texture": "silentgear:_highlight",
-        "color": "#E62400"
-      }
-    ]
-  }
+  "model": {}
 }

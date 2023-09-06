@@ -82,40 +82,5 @@
       }
     ]
   },
-  "model": {
-    "main/all": [
-      {
-        "texture": "silentgear:main_generic_hc",
-        "color": "#888C1B"
-      },
-      {
-        "texture": "silentgear:main_splotches",
-        "color": "#65680E"
-      }
-    ],
-    "main/fragment": [
-      {
-        "texture": "silentgear:metal",
-        "color": "#888C1B"
-      }
-    ],
-    "tip/all": [
-      {
-        "texture": "silentgear:tip_sharp",
-        "color": "#888C1B"
-      }
-    ],
-    "tip/part": [
-      {
-        "texture": "silentgear:tip_base"
-      },
-      {
-        "texture": "silentgear:tip",
-        "color": "#888C1B"
-      },
-      {
-        "texture": "silentgear:tip_shine"
-      }
-    ]
-  }
+  "model": {}
 }
