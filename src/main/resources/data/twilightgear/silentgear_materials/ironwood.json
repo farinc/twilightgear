@@ -60,23 +60,6 @@
         "mul2": 0.1
       },
       "rarity": 35.0
-    },
-    "tip": {
-      "durability": {
-        "add": 40.0
-      },
-      "harvest_speed": {
-        "mul2": -0.1
-      },
-      "melee_damage": {
-        "mul2": -0.1
-      },
-      "ranged_speed": {
-        "add": 0.2
-      },
-      "rarity": {
-        "add": 15.0
-      }
     }
   },
   "traits": {
