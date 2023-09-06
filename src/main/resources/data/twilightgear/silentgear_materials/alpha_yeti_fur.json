@@ -73,13 +73,13 @@
         ]
       },
       {
-        "name": "silentgear:stellar",
+        "name": "silentgear:renew",
         "level": 2
       }
     ],
     "grip": [
       {
-        "name": "silentgear:flexible",
+        "name": "silentgear:mighty",
         "level": 1
       },
       {
@@ -89,12 +89,8 @@
     ],
     "lining": [
       {
-        "name": "silentgear:flexible",
+        "name": "silentgear:rustic",
         "level": 2
-      },
-      {
-        "name": "silentgear:renew",
-        "level": 1
       }
     ]
   },

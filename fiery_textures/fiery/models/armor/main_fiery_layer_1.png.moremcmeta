@@ -4,5 +4,9 @@
     "frametime": 18,
     "width": 64,
     "height": 32
+  },
+  "overlay": {
+    "texture": "twilightgear:textures/models/armor/main_fiery_layer_1.png",
+    "emissive": true
   }
 }

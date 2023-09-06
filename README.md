@@ -17,7 +17,7 @@ The materials Fiery, Knightmetal, Steeleaf, and Naga scale are similar to their 
 | Red Thread     	| binding, cord        	| `twilightforest:red_thread`        	|
 | Steeleaf       	| main, fletching, tip 	| `twilightforest:steeleaf_ingot`    	|
 | Towerwood      	| main, rod            	| `twilightforest:towerwood`         	|
-| Trollsteinn    	| main, rod            	| `twilightforest:trollsteinn`       	|
+| Trollsteinn    	| main            	    | `twilightforest:trollsteinn`       	|
 
 ## Other Tweaks
 - [x] Carminite acts as a tier 2 grading material
