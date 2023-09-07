@@ -1,8 +1,8 @@
 {
     "main/all": [
         {
-            "texture": "silentgear:main_generic_lc",
-            "color": "#375F2F"
+            "texture": "silentgear:main_generic_hc",
+            "color": "#57924B"
         },
         {
             "texture": "silentgear:_highlight",
@@ -12,7 +12,7 @@
     "main/fragment": [
         {
             "texture": "silentgear:metal",
-            "color": "#27401D"
+            "color": "#57924B"
         }
     ],
     "tip/all": [
@@ -27,7 +27,7 @@
         },
         {
             "texture": "silentgear:tip",
-            "color": "#375F2F"
+            "color": "#57924B"
         },
         {
             "texture": "silentgear:tip_shine",
