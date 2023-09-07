@@ -10,7 +10,7 @@ credits = "Thanks to SilentChaos for SilentGear and Benimatic for Twilight Fores
 authors = "farinc"
 logoFile = "logo.png"
 description = '''
-A small addon mod for Silent Gear that provides Twilight Forest inspired materials.
+An integration mod between the Silent Gear mod and the Twilight Forest mod.
 '''
 [[dependencies.twilightgear]]
 modId = "forge"

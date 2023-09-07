@@ -24,5 +24,8 @@ run
 # vscode
 .vscode
 
+# local maven
+mcmodsrepo
+
 # Files from Forge MDK
 forge*changelog.txt

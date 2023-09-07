@@ -1,5 +1,5 @@
 # Twilight Gear
-An addon to the Silent Gear mod for integration with Twilight Forest item.
+An integration mod between the Silent Gear mod and the Twilight Forest mod.
 
 ## Materials
 The materials Fiery, Knightmetal, Steeleaf, and Naga scale are similar to their TC counterparts, but tweaked to fit the SG systems.
