@@ -18,7 +18,7 @@
     "tip/all": [
         {
             "texture": "silentgear:tip_sharp",
-            "color": "#888C1B"
+            "color": "#65680E"
         }
     ],
     "tip/part": [
@@ -30,7 +30,8 @@
             "color": "#888C1B"
         },
         {
-            "texture": "silentgear:tip_shine"
+            "texture": "silentgear:tip_shine",
+            "color": "#65680E"
         }
     ]
 }
