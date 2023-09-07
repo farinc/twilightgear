@@ -21,7 +21,7 @@
   },
   "stats": {
     "main": {
-      "durability": 180.0,
+      "durability": 200.0,
       "armor_durability": 10.0,
       "enchantability": 9.0,
       "harvest_level": 3.0,
@@ -29,11 +29,7 @@
       "melee_damage": 7.0,
       "magic_damage": 0.0,
       "attack_speed": 0.1,
-      "armor": 5.0,
-      "armor/helmet": 3.0,
-      "armor/chestplate": 8.0,
-      "armor/leggings": 6.0,
-      "armor/boots": 3.0,
+      "armor": 21.0,
       "ranged_damage": 1.5,
       "ranged_speed": 0.8,
       "rarity": 60.0,

@@ -28,11 +28,7 @@
       "melee_damage": 3.0,
       "magic_damage": 1.0,
       "attack_speed": -0.1,
-      "armor": 7.0,
-      "armor/helmet": 2.0,
-      "armor/chestplate": 3.0,
-      "armor/leggings": 3.0,
-      "armor/boots": 2.0,
+      "armor": 10.0,
       "ranged_damage": 0.0,
       "ranged_speed": -0.3,
       "projectile_speed": 1.0,
@@ -62,7 +58,13 @@
       },
       {
         "name": "twilightgear:mazebreaking",
-        "level": 1
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.6666
+          }
+        ]
       }
     ],
     "rod": [

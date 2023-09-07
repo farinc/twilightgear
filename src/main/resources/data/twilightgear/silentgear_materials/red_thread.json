@@ -22,10 +22,10 @@
     "binding": {
       "durability": [
         {
-          "mul1": -0.01
+          "mul1": -0.05
         },
         {
-          "add": -10.0
+          "add": 30.0
         }
       ],
       "ranged_damage": {
@@ -44,12 +44,6 @@
       },
       "attack_speed": {
         "add": 0.1
-      },
-      "armor_durability": {
-        "mul1": 0.04
-      },
-      "magic_armor": {
-        "add": 3.5
       },
       "rarity": {
         "add": 15.0
@@ -70,14 +64,9 @@
       "ranged_damage": {
         "mul1": 0.09
       },
-      "ranged_speed": [
-        {
-          "add": 0.25
-        },
-        {
-          "mul1": 0.29
-        }
-      ],
+      "ranged_speed": {
+        "mul1": 0.2
+      },
       "rarity": {
         "add": 15.0
       },

@@ -32,10 +32,6 @@
       "attack_speed": 0.0,
       "attack_speed/axe": -0.1,
       "armor": 15.0,
-      "armor/helmet": 2.0,
-      "armor/chestplate": 7.0,
-      "armor/leggings": 5.0,
-      "armor/boots": 2.0,
       "magic_armor": 6.0,
       "ranged_damage": 2.0,
       "ranged_speed": 0.1,
@@ -70,6 +66,10 @@
       },
       {
         "name": "silentgear:jagged",
+        "level": 2
+      },
+      {
+        "name": "silentgear:organic",
         "level": 1
       }
     ],
@@ -77,15 +77,9 @@
       {
         "name": "silentgear:flexible",
         "level": 2
-      }
-    ],
-    "tip": [
-      {
-        "name": "silentgear:jagged",
-        "level": 1
       },
       {
-        "name": "silentgear:renew",
+        "name": "silentgear:jagged",
         "level": 1
       }
     ]

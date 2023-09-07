@@ -21,7 +21,7 @@
   "stats": {
     "main": {
       "durability": 80.0,
-      "armor_durability": 8.0,
+      "armor_durability": 12.0,
       "repair_value": 0.25,
       "enchantability": 20.0,
       "harvest_level": 0.0,
@@ -31,21 +31,17 @@
       "attack_speed": 0.0,
       "attack_speed/axe": -0.2,
       "armor": 10.0,
-      "armor/helmet": 2.0,
-      "armor/chestplate": 5.0,
-      "armor/leggings": 4.0,
-      "armor/boots": 2.0,
       "magic_armor": 4.0,
       "ranged_damage": 0.0,
       "ranged_speed": 0.0,
       "projectile_speed": 0.90,
       "projectile_accuracy": 0.95,
       "rarity": 10.0,
-      "chargeability": 0.6
+      "chargeability": 0.8
     },
     "rod": {
       "enchantability": {
-        "mul2": 0.05
+        "mul2": 0.12
       },
       "rarity": 10.0
     }

@@ -24,14 +24,9 @@
       "durability": 0.0,
       "armor_durability": 20.0,
       "enchantability": 15.0,
-      "rarity": 7.0,
-      "chargeability": 0.95,
-      "armor": 4.0,
-      "armor/helmet": 4.0,
-      "armor/chestplate": 7.0,
-      "armor/leggings": 6.0,
-      "armor/boots": 3.0,
-      "armor_toughness": 3.0,
+      "rarity": 25.0,
+      "chargeability": 1.05,
+      "armor": 15.0,
       "magic_armor": 10.0
     },
     "grip": {
@@ -50,7 +45,7 @@
     },
     "lining": {
       "rarity": {
-        "add": 50
+        "add": 10
       },
       "repair_value": {
         "mul2": -0.15

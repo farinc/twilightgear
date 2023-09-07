@@ -58,11 +58,7 @@
         "mul2": 0.05
       },
       "chargeability": 1.3,
-      "armor": 15.0,
-      "armor/helmet": 2.0,
-      "armor/chestplate": 7.0,
-      "armor/leggings": 5.0,
-      "armor/boots": 2.0
+      "armor": 15.0
     }
   },
   "traits": {

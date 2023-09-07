@@ -2,7 +2,7 @@
   "type": "silentgear:standard",
   "simple": true,
   "availability": {
-    "tier": 3,
+    "tier": 4,
     "categories": [
       "organic"
     ],
@@ -25,14 +25,9 @@
   },
   "stats": {
     "coating": {
-      "durability": [
-        {
-          "mul2": 0.075
-        },
-        {
-          "add": 150
-        }
-      ],
+      "durability": {
+        "mul2": 0.20
+      },
       "magic_armor": {
         "mul2": 0.2
       },
@@ -41,22 +36,26 @@
       },
       "enchantability": [
         {
-          "mul1": 0.1
+          "mul1": 0.15
         },
         {
           "add": 2
         }
       ],
       "rarity": {
-        "mul1": 0.05
-      }
+        "mul1": 0.1
+      },
+      "attack_damge": {
+        "add": 1.0
+      },
+      "reach_distance": -1
     }
   },
   "traits": {
     "coating": [
       {
         "name": "silentgear:fiery",
-        "level": 2,
+        "level": 3,
         "conditions": [
           {
             "type": "silentgear:material_ratio",
@@ -66,7 +65,7 @@
       },
       {
         "name": "silentgear:fiery",
-        "level": 1,
+        "level": 2,
         "conditions": [
           {
             "type": "silentgear:not",
@@ -78,20 +77,12 @@
         ]
       },
       {
-        "name": "silentgear:fireproof",
-        "level": 1
-      },
-      {
-        "name": "silentgear:ignite",
-        "level": 1
-      },
-      {
         "name": "silentgear:magmatic",
         "level": 1,
         "conditions": [
           {
             "type": "silentgear:material_ratio",
-            "ratio": 1
+            "ratio": 1.0
           }
         ]
       },
@@ -101,7 +92,7 @@
         "conditions": [
           {
             "type": "silentgear:material_ratio",
-            "ratio": 1
+            "ratio": 1.0
           }
         ]
       }

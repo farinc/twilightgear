@@ -2,7 +2,7 @@
   "type": "silentgear:standard",
   "simple": true,
   "availability": {
-    "tier": 3,
+    "tier": 4,
     "categories": [
       "metal"
     ],
@@ -23,25 +23,22 @@
       "durability": 800.0,
       "armor_durability": 26.0,
       "repair_value": 1.0,
-      "enchantability": 10.0,
+      "enchantability": 16.0,
       "harvest_level": 4.0,
       "harvest_speed": 6.0,
       "melee_damage": 4.0,
       "magic_damage": 1.0,
-      "attack_speed": -0.3,
+      "attack_speed": -0.1,
+      "attack_speed/axe": -0.2,
       "armor": 24.0,
-      "armor/helmet": 3.0,
-      "armor/chestplate": 6.0,
-      "armor/leggings": 8.0,
-      "armor/boots": 3.0,
       "armor_toughness": 1.0,
       "magic_armor": 8.0,
       "ranged_damage": 2.0,
       "ranged_speed": -0.3,
       "projectile_speed": 0.90,
       "projectile_accuracy": 1.2,
-      "rarity": 40.0,
-      "chargeability": 0.9
+      "rarity": 50.0,
+      "chargeability": 1.1
     },
     "rod": {
       "durability": {
@@ -49,10 +46,10 @@
       },
       "melee_damage": [
         {
-          "mul2": 1.2
+          "mul2": 0.15
         },
         {
-          "add": 3
+          "add": 2
         }
       ],
       "reach_distance": -1,
@@ -86,7 +83,7 @@
     "main": [
       {
         "name": "silentgear:adamant",
-        "level": 2
+        "level": 3
       },
       {
         "name": "silentgear:bulky",
@@ -94,19 +91,41 @@
       },
       {
         "name": "silentgear:sturdy",
-        "level": 2
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.6666
+          }
+        ]
       }
     ],
     "rod": [
       {
         "name": "silentgear:mighty",
-        "level": 2
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.6666
+          }
+        ]
       }
     ],
     "tip": [
       {
         "name": "silentgear:adamant",
         "level": 2
+      },
+      {
+        "name": "silentgear:sturdy",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 1.0
+          }
+        ]
       }
     ]
   },
