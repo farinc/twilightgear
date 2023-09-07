@@ -6,11 +6,11 @@ license = "MIT"
 modId = "twilightgear"
 version = "${file.jarVersion}"
 displayName = "Twilight Gear"
-credits = "Thanks to SilentChaos for SilentGear and Benimatic for Twilight Forest, and many others, who contributed to both projects!"
+credits = "Thanks to SilentChaos for SilentGear and Benimatic for Twilight Forest, and the many others, who contributed to both projects!"
 authors = "farinc"
+logoFile = "logo.png"
 description = '''
-A small addon mod for Silent Gear that provides Twilight Forest materials similar to what
-Twilight Forest provides for Tconstruct.
+A small addon mod for Silent Gear that provides Twilight Forest inspired materials.
 '''
 [[dependencies.twilightgear]]
 modId = "forge"
