@@ -10,13 +10,13 @@ import net.minecraftforge.common.util.FakePlayer;
 import net.silentchaos512.gear.api.GearApi;
 import net.silentchaos512.gear.api.part.IPartData;
 import net.silentchaos512.gear.api.traits.TraitActionContext;
+import net.silentchaos512.gear.api.util.DataResource;
 import net.silentchaos512.gear.gear.trait.SimpleTrait;
-import net.silentchaos512.gear.util.DataResource;
 import net.silentchaos512.gear.util.GearHelper;
 import net.silentchaos512.gear.util.TraitHelper;
 import net.silentchaos512.utils.MathUtils;
-import twilightforest.block.TFBlocks;
-import twilightforest.item.TFItems;
+import twilightforest.init.TFBlocks;
+import twilightforest.init.TFItems;
 
 public class PhotosynthesisTrait extends SimpleTrait {
 
@@ -28,7 +28,7 @@ public class PhotosynthesisTrait extends SimpleTrait {
     }
 
     public static ResourceLocation STEELEAF_MATERIAL = new ResourceLocation(TwilightGear.MODID,
-            "silentgear_materials/steeleaf");
+            "steeleaf");
 
     /**
      * Adapted and modified code from Twilight Forest mod and Silent Gear, see

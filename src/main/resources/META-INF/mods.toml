@@ -1,6 +1,6 @@
 
 modLoader = "javafml"
-loaderVersion = "[40,)"
+loaderVersion = "[45,)"
 license = "MIT"
 [[mods]]
 modId = "twilightgear"
@@ -15,30 +15,30 @@ An integration mod between the Silent Gear mod and the Twilight Forest mod.
 [[dependencies.twilightgear]]
 modId = "forge"
 mandatory = true
-versionRange = "[40.2.4,)"
+versionRange = "[45,)"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.twilightgear]]
 modId = "silentgear"
 mandatory = true
-versionRange = "[2.10,)"
+versionRange = "[3.2,)"
 ordering = "AFTER"
 side = "BOTH"
 [[dependencies.twilightgear]]
 modId = "twilightforest"
 mandatory = true
-versionRange = "[4.1,4.2)"
+versionRange = "[4.2.1696,4.3)"
 ordering = "AFTER"
 side = "BOTH"
 [[dependencies.twilightgear]]
 modId = "moremcmeta"
 mandatory = true
-versionRange = "[1.18.2-4.2,1.18.2-4.3)"
+versionRange = "[1.19.4-4.2,)"
 ordering = "NONE"
 side = "CLIENT"
 [[dependencies.twilightgear]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.18.2,1.19)"
+versionRange = "[1.19.4,1.20)"
 ordering = "NONE"
 side = "BOTH"

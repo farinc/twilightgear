@@ -1,6 +1,6 @@
 package io.github.farinc.twilightgear.traits;
 
-import com.mojang.math.Vector3f;
+import org.joml.Vector3f;
 
 import io.github.farinc.twilightgear.TwilightGear;
 import net.minecraft.core.BlockPos;

@@ -129,5 +129,52 @@
       }
     ]
   },
-  "model": {}
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#C4D6AE"
+      },
+      {
+        "texture": "silentgear:_highlight",
+        "color": "#F7FDD4"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#C4D6AE"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#C4D6AE"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#C4D6AE"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#C4D6AE"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#C4D6AE"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
 }
