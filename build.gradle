@@ -80,7 +80,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', '${modid}'
+            property 'forge.enabledGameTestNamespaces', "${modid}"
 
             property 'mixin.env.remapRefMap', 'true'
             
@@ -101,7 +101,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', '${modid}'
+            property 'forge.enabledGameTestNamespaces', "${modid}"
 
             property 'mixin.env.remapRefMap', 'true'
 
@@ -133,7 +133,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', '${modid}'
+            property 'forge.enabledGameTestNamespaces', "${modid}"
 
             property 'mixin.env.remapRefMap', 'true'
 
