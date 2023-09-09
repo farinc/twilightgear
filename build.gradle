@@ -235,26 +235,22 @@ dependencies {
     implementation fg.deobf("teamtwilight:twilightforest:${twilight_forest_version}:universal")
 
     implementation fg.deobf("net.silentchaos512:silent-gear:${mc_version}-${silent_gear_version}") {
-       exclude module: 'forge'
-       exclude module: "jei-${mc_version}"
-       exclude module: 'silent-lib'
-       exclude module: 'curios-forge'
+	    transitive false
     }
 
     implementation fg.deobf("net.silentchaos512:silent-lib:${mc_version}-${silent_lib_version}") {
-       exclude module: "forge"
+        transitive false
     }
 
     // Must add the entire plugin list as those are jar-in-jar and otherwise remain obfuscated, resulting in a crash at startup
     implementation fg.deobf("io.github.moremcmeta:moremcmeta-forge:${mc_version}-${moremcmeta_version}")
-    implementation(fg.deobf("io.github.moremcmeta:json-parser-plugin-forge:${mc_version}-${moremcmeta_json_version}"))
-    implementation(fg.deobf("io.github.moremcmeta:properties-parser-plugin-forge:${mc_version}-${moremcmeta_properties_version}"))
-    implementation(fg.deobf("io.github.moremcmeta:animation-plugin-forge:${mc_version}-${moremcmeta_animation_version}"))
-    implementation(fg.deobf("io.github.moremcmeta:texture-plugin-forge:${mc_version}-${moremcmeta_texture_version}"))
+    implementation fg.deobf("io.github.moremcmeta:json-parser-plugin-forge:${mc_version}-${moremcmeta_json_version}")
+    implementation fg.deobf("io.github.moremcmeta:properties-parser-plugin-forge:${mc_version}-${moremcmeta_properties_version}")
+    implementation fg.deobf("io.github.moremcmeta:animation-plugin-forge:${mc_version}-${moremcmeta_animation_version}")
+    implementation fg.deobf("io.github.moremcmeta:texture-plugin-forge:${mc_version}-${moremcmeta_texture_version}")
     
     // This is mostly for debugging purposes. IE has a simple item tag tooltip when advanced tooltips are used.
-    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:10.2.1.1001")
-    // runtimeOnly fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:${mc_version}-8.4.0-161")
+    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
