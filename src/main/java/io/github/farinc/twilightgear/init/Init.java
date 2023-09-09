@@ -3,8 +3,6 @@ package io.github.farinc.twilightgear.init;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.storage.loot.predicates.LootItemConditionType;
-import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
@@ -12,24 +10,18 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
-import net.minecraftforge.registries.IForgeRegistryEntry;
-
 import io.github.farinc.twilightgear.TwilightGear;
 
 //A better solution using the static initializer!
 // Lets just not instantiate this, although it won't do anything really...
 public final class Init {
-    public static final DeferredRegister<LootItemConditionType> LOOT_CONDITION_TYPES;
-    public static final DeferredRegister<GlobalLootModifierSerializer<?>> LOOT_MODIFIER_SERIALIZERS;
     public static final DeferredRegister<Item> ITEMS;
 
     static {
-        LOOT_CONDITION_TYPES = create(Registry.LOOT_ITEM_REGISTRY);
-        LOOT_MODIFIER_SERIALIZERS = create(ForgeRegistries.Keys.LOOT_MODIFIER_SERIALIZERS);
-        ITEMS = create(ForgeRegistries.ITEMS);
+        ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TwilightGear.MODID);
     }
 
-    public static <T extends IForgeRegistryEntry<T>> DeferredRegister<T> create(IForgeRegistry<T> registry) {
+    public static <T extends IForgeRegistry<T>> DeferredRegister<T> create(IForgeRegistry<T> registry) {
         return DeferredRegister.create(registry, TwilightGear.MODID);
     }
 
@@ -46,8 +38,6 @@ public final class Init {
     }
 
     private static void addRegistriesToBus(IEventBus bus) {
-        LOOT_CONDITION_TYPES.register(bus);
-        LOOT_MODIFIER_SERIALIZERS.register(bus);
         ITEMS.register(bus);
     }
 
